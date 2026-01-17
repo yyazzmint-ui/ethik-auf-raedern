@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ethik auf Rädern – interaktive Website zu KI, Ethik & Verantwortung im Straßenverkehr." />
+  <meta name="theme-color" content="#0b0f1e" />
+  <link rel="icon" href="assets/logo-icon.png" />
+  <meta property="og:title" content="Start – Ethik auf Rädern" />
+  <meta property="og:description" content="Ethik auf Rädern – interaktive Website zu KI, Ethik & Verantwortung im Straßenverkehr." />
+  <meta property="og:image" content="assets/logo-square.png" />
+  <meta property="og:type" content="website" />
+  <title>Start – Ethik auf Rädern</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="index.html" aria-label="Start">
+      <img class="brand__logo" src="assets/ethik-auf-raedern-logo.png" alt="Ethik auf Rädern" />
+</a>
+    <button class="navbtn" aria-expanded="false" aria-controls="navlinks">Menü</button>
+    <nav class="nav" id="navlinks">
+      <a href="index.html" aria-current="page">Start</a>
+      <a href="ethik.html">Ethik</a>
+      <a href="fallbeispiel.html">Fallbeispiel</a>
+      <a href="faelle.html">Fallbeispiele & Videos</a>
+      <a href="ki.html">KI & Aufklärung</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="spiele.html">Mini‑Spiele</a>
+      <a href="fazit.html">Fazit</a>
+        <a class="nav__link" href="quellen.html">Quellen</a>
+    </nav>
+
+    <!-- Logo oben rechts (wie in der Präsentation) -->
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="section">
+  <div class="wave-hero">
+    <img class="wave-bg" src="assets/wave-bg-clean.png" alt="Ethik auf Rädern" />
+    <div class="wave-overlay"></div>
+
+    <div class="wave-title">
+      <div class="kicker">Interaktive Aufklärung über KI & Ethik im Verkehr</div>
+      <h1>„Ethik auf Rädern“ – Verantwortung im Straßenverkehr.</h1>
+      <p>Tippe auf die leuchtenden Widgets auf der Welle, um Themen zu entdecken: Ethik, Fallbeispiele, KI-Erklärung, Quiz & Mini‑Spiele.</p>
+</div>
+
+    <div class="wave-widgets" aria-label="Themen auf der Welle">
+      <a class="wave-widget" style="--x: 16%; --y: 52%;" href="ethik.html">⚖️ Ethik</a>
+      <a class="wave-widget" style="--x: 34%; --y: 58%;" href="faelle.html">🎬 Fälle & Videos</a>
+      <a class="wave-widget" style="--x: 52%; --y: 53%;" href="ki.html">🤖 KI & Aufklärung</a>
+      <a class="wave-widget" style="--x: 70%; --y: 57%;" href="quiz.html">🧠 Quiz</a>
+      <a class="wave-widget" style="--x: 86%; --y: 50%;" href="spiele.html">🎮 Mini‑Spiele</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="grid grid--3">
+    <div class="card">
+      <h3>Merksatz</h3>
+      <p class="muted">KI kann Entscheidungen treffen – aber keine moralische Schuld tragen.</p>
+      <hr class="sep"/>
+      <p class="muted"><strong>Projektfrage:</strong><br/>Können Menschen moralischere Entscheidungen treffen als KI im Straßenverkehr?</p>
+    </div>
+    <div class="card">
+      <h3>Was du hier bekommst</h3>
+      <div class="feature"><div class="icon">🚗</div><div><div class="title">Dilemma & Fälle</div><p>Konkrete Situationen, die zum Nachdenken zwingen.</p></div></div>
+      <div style="height:10px"></div>
+      <div class="feature"><div class="icon">🧠</div><div><div class="title">Wissen & Quiz</div><p>Mythos vs. Fakt – direkt mit Erklärungen.</p></div></div>
+    </div>
+    <div class="card card--media">
+      <img src="assets/ki-kopf.png" alt="Mensch und KI" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <div class="footer__brand">Ethik auf Rädern</div>
+      <div class="muted">Interaktives Projekt zu KI, Ethik & Verantwortung im Straßenverkehr.</div>
+    </div>
+    <div>
+      <div style="font-weight:900;margin-bottom:8px">Team</div>
+      <ul class="footer__list">
+        <li>Juliette Rausch</li><li>Anton Pereladov</li><li>Aya Yasmine Abdelbari</li><li>Nele Meyer</li>
+      </ul>
+    </div>
+    <div class="footer__meta">
+      <div class="muted">Kostenlos als statische Website hostbar.</div>
+      <div class="muted"><span id="year"></span></div>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+
+
+</body>
+</html>
